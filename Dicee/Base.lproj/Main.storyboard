@@ -39,6 +39,9 @@
                                 <state key="normal" title="Roll">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
+                                <connections>
+                                    <action selector="btRodarDados:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Dbp-Lf-Hyj"/>
+                                </connections>
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
@@ -50,6 +53,10 @@
                             <constraint firstItem="Pz8-dX-XUk" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="z1Y-px-bsh"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="diceOne" destination="z6P-nE-7g9" id="lSb-ep-3xO"/>
+                        <outlet property="diceTwo" destination="LGb-GG-2e6" id="Urg-aE-seO"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
